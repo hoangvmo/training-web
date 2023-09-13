@@ -1,0 +1,124 @@
+.banner {
+  position: relative;
+  margin-top: 30px;
+}
+
+.banner-content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* bottom: 0px; */
+  background-color: rgba(2, 2, 2, 0.59);
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 138.5%;
+  max-width: 546px;
+  padding: 0px;
+  margin: 0px 0px 15px 0px;
+}
+
+.content {
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  width: 530px;
+  padding: 0px;
+  margin: 0px 0px 25px 0px;
+}
+
+.discover-btn {
+  background-color: #1e47ff;
+  height: 50px;
+  width: 155px;
+  margin-right: 20px;
+}
+
+.text-btn {
+  padding: 0px;
+  margin: 0px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.hotline {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 14px */
+  text-decoration-line: underline;
+}
+
+@media (max-width: 480px) {
+  .banner {
+    position: relative;
+    margin-top: 10px;
+  }
+
+  .title {
+    font-size: 14px;
+    width: 100%;
+    margin: 0px 0px 5px 0px;
+    line-height: 110%;
+  }
+
+  .content {
+    font-size: 10px;
+    max-width: 80%;
+    margin: 0px 0px 15px 0px;
+    line-height: 110%;
+  }
+
+  .discover-btn {
+    height: 40px;
+    width: 120px;
+    margin-right: 20px;
+  }
+
+  .text-btn {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  .banner {
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .title {
+    font-size: 28px;
+    width: 80%;
+    margin: 0px 0px 5px 0px;
+  }
+
+  .content {
+    font-size: 14px;
+    max-width: 80%;
+    margin: 0px 0px 15px 0px;
+  }
+}

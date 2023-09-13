@@ -1,0 +1,211 @@
+.core-wp-card {
+  display: flex;
+  width: "100%";
+  margin-top: 140px;
+}
+
+.core-wp-card-container {
+  border-radius: 10px;
+  border: 1px solid #1e47ff5e;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: "100%";
+  padding: 48px 37px;
+  width: 30%;
+}
+
+.card-wp-title {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 138.5%;
+  margin-top: 24px;
+}
+
+.card-wp-content {
+  color: #666;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  margin-top: 10px;
+}
+
+.solution-container {
+  display: flex;
+  margin-top: 140px;
+  padding: 0px 40px;
+}
+
+.card-solution-img {
+  width: 361px;
+}
+
+.company-solution {
+  width: 458px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: "100%";
+}
+
+.company-text {
+  color: #1b3868;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.solution-title {
+  margin-top: 13px;
+  color: #333;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+}
+
+.solution-content {
+  color: #333;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin-top: 28px;
+}
+
+.readmore-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 162px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #1e47ff;
+  margin: 24px 0px;
+}
+
+.solution-business-container {
+  margin-top: 140px;
+}
+
+@media (max-width: 480px) {
+  .core-wp-card {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .core-wp-card-container {
+    margin-bottom: 40px;
+    width: 80%;
+  }
+
+  .solution-container {
+    margin-top: 60px;
+  }
+
+  .company-text {
+    font-size: 10px;
+    line-height: 14px
+  }
+
+  .company-solution {
+    width: 40%;
+  }
+
+  .solution-title {
+    font-size: 14px;
+    line-height: 18px;
+    /* margin-top: 40px; */
+  }
+
+  .solution-content {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 0px;
+    line-height: 16px;
+  }
+
+  .solution-img {
+    width: 60%;
+    margin-right: 20px;
+  }
+
+  .solution-item {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .card-solution-img {
+    width: 30%;
+    margin-right: 20px;
+  }
+
+  .readmore-btn {
+    height: 40px;
+    width: 100px;
+  }
+
+  .solution-business-container {
+    margin-top: 40px;
+  }
+  
+}
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  .core-wp-card {
+    flex-direction: column;
+    width: 80%;
+  }
+
+  .core-wp-card-container {
+    margin-bottom: 40px;
+    width: 80%;
+  }
+
+  .solution-container {
+    margin-top: 60px;
+  }
+
+  .solution-img {
+    width: 60%;
+    margin-right: 50px;
+  }
+
+  .solution-item {
+    display: flex;
+    margin-bottom: 40px;
+  }
+
+  .card-solution-img {
+    width: 30%;
+  }
+
+  .solution-content {
+    font-size: 24px;
+    margin-left: 30px;
+    margin-top: 0px;
+  }
+
+  .solution-business-container {
+    margin-top: 100px;
+  }  
+}

@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin-top: 35px;
+  /* margin: 0 auto; */
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  display: block;
+  padding: 0px 26px;
+}
+
+.menu-link {
+  color: black;
+}
+
+.header-right {
+  display: flex;
+  height: "100%";
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0;
+  display: flex;
+}
+
+@media (max-width: 480px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 960px) {
+  .menu {
+    display: none;
+  }
+}
