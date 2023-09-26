@@ -1,24 +1,9 @@
-import React from 'react'
 import "./styles.css";
-import { BannerFooter } from '../../assets/images';
 import { FacebookIcon, GoogleIcon, Logo, TwitterIcon } from '../../assets/svg';
 
 export const FooterComponent = () => {
   return (
     <>
-      <div className="banner">
-        <img src={BannerFooter} width="100%" />
-        <div className="banner-content">
-          <p className="title-footer">Ready to get started? Get your Finance out of the way</p>
-          <p className="content-footer"> If you deliver enough value, making money becomes the easy part. Why should you be stressful? Let us make this easier for you.</p>
-          <div className="banner-footer">
-            <button className="contact-btn">
-              <p className="text-btn">Contact Us</p>
-            </button>
-          </div>
-        </div>
-      </div>
-
       <div className="footer-container">
         <div className="footer-left">
           <a href="#!" className="logo-link">
